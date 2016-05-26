@@ -1,27 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phoneAppForLeaya", "phoneAppForLeaya\phoneAppForLeaya.csproj", "{7D6FA0A9-985A-4977-8839-0B07ACD01C30}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "phoneAppForLeaya", "phoneAppForLeaya", "{051921DD-F2D3-4225-AE8F-22FA90545B1D}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "phoneAppForLeaya.Shared", "phoneAppForLeaya.Shared\phoneAppForLeaya.Shared.shproj", "{5C8BCECC-7AF7-49F0-B2AB-FB62ADC3C757}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		phoneAppForLeaya.Shared\phoneAppForLeaya.Shared.projitems*{5c8bcecc-7af7-49f0-b2ab-fb62adc3c757}*SharedItemsImports = 13
-		phoneAppForLeaya.Shared\phoneAppForLeaya.Shared.projitems*{7d6fa0a9-985a-4977-8839-0b07acd01c30}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
-		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
-		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -31,9 +21,6 @@ Global
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|ARM.ActiveCfg = Debug|ARM
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|ARM.Build.0 = Debug|ARM
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|ARM.Deploy.0 = Debug|ARM
-		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|x64.Build.0 = Debug|Any CPU
-		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|x64.Deploy.0 = Debug|Any CPU
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|x86.ActiveCfg = Debug|x86
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|x86.Build.0 = Debug|x86
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Debug|x86.Deploy.0 = Debug|x86
@@ -43,18 +30,11 @@ Global
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|ARM.ActiveCfg = Release|ARM
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|ARM.Build.0 = Release|ARM
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|ARM.Deploy.0 = Release|ARM
-		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|x64.ActiveCfg = Release|Any CPU
-		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|x64.Build.0 = Release|Any CPU
-		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|x64.Deploy.0 = Release|Any CPU
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|x86.ActiveCfg = Release|x86
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|x86.Build.0 = Release|x86
 		{7D6FA0A9-985A-4977-8839-0B07ACD01C30}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{7D6FA0A9-985A-4977-8839-0B07ACD01C30} = {051921DD-F2D3-4225-AE8F-22FA90545B1D}
-		{5C8BCECC-7AF7-49F0-B2AB-FB62ADC3C757} = {051921DD-F2D3-4225-AE8F-22FA90545B1D}
 	EndGlobalSection
 EndGlobal

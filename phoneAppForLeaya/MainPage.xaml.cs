@@ -47,7 +47,7 @@ namespace phoneAppForLeaya
 
         private void submiteComponents_Click(object sender, RoutedEventArgs e)
         {
-            navi
+            
         }
     }
 }
