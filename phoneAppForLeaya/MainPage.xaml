@@ -1,0 +1,192 @@
+﻿<Page
+    x:Class="phoneAppForLeaya.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:phoneAppForLeaya"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="textBlockHeader"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="91,28,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Leaya" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="196"
+                   FontSize="35"
+                   />
+        <TextBlock x:Name="textBlockDiscription"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="10,98,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Calculate electrical circuits" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="380"
+                   FontSize="25"
+                   />
+
+        <TextBlock x:Name="textBlockInput"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="0,143,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Start calculations" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="380"
+                   FontSize="25"
+                   />
+        <TextBlock x:Name="Nodes"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="34,211,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Nodes" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="181"
+                   FontSize="25"
+                   />
+        <TextBox x:Name="NodesValue"
+                 HorizontalAlignment="Left"
+                 Margin="220,211,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top"
+                 Width="137"
+                 Height="17"
+                 
+                 />
+
+        <TextBlock x:Name="resistor"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="39,273,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Resistor" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="181"
+                   FontSize="25"
+                   />
+        <TextBox x:Name="ResistorValue"
+                 HorizontalAlignment="Left"
+                 Margin="220,273,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top"
+                 Width="137"
+                 Height="17"
+                 
+                 />
+
+        <TextBlock x:Name="Capacitor"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="39,336,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Capacitor" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="181"
+                   FontSize="25"
+                   />
+        <TextBox x:Name="CapacitorValue"
+                 HorizontalAlignment="Left"
+                 Margin="220,336,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top"
+                 Width="137"
+                 Height="17"
+                 
+                 />
+        <TextBlock x:Name="Inductor"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="39,393,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Inductor" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="181"
+                   FontSize="25"
+                   />
+        <TextBox x:Name="InductorValue"
+                 HorizontalAlignment="Left"
+                 Margin="220,393,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top"
+                 Width="137"
+                 Height="17"
+                 
+                 />
+
+
+        <TextBlock x:Name="outputNodes"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="106,462,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Output nodes" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="181"
+                   FontSize="25"
+                   />
+
+        <TextBlock x:Name="PositiveNode"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="10,500,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Positive" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="181"
+                   FontSize="25"
+                   />
+        <TextBlock x:Name="NegativeNode"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Left" 
+                   Margin="209,500,0,0" 
+                   TextWrapping="Wrap"
+                   Text="Negative" 
+                   VerticalAlignment="Top" 
+                   Height="40"
+                   Width="181"
+                   FontSize="25"
+                   />
+        <TextBox x:Name="outputPositiveValue"
+                 HorizontalAlignment="Left"
+                 Margin="62,540,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top"
+                 Width="87"
+                 Height="17"
+                 
+                 />
+        <TextBox x:Name="outputNegativeValue"
+                 HorizontalAlignment="Left"
+                 Margin="255,540,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top"
+                 Width="102"
+                 Height="17"
+                 
+                 />
+        <Button x:Name="submiteComponents" Content="Next" HorizontalAlignment="Left" Margin="157,592,0,-9" VerticalAlignment="Top" Click="submiteComponents_Click"/>
+
+
+    </Grid>
+</Page>
