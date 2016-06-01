@@ -48,6 +48,39 @@ namespace phoneAppForLeaya
         private void submiteComponents_Click(object sender, RoutedEventArgs e)
         {
             
+            components component = new components();
+            component.Node = Convert.ToInt32(NulltoZero(NodesValue.Text));
+            component.resistor = Convert.ToInt32(NulltoZero(ResistorValue.Text));
+            component.capacitor = Convert.ToInt32(NulltoZero(CapacitorValue.Text));
+            component.Iductor = Convert.ToInt32(NulltoZero(InductorValue.Text));
+            component.outputpositive = Convert.ToInt32(NulltoZero(outputPositiveValue.Text));
+            component.outputnegative = Convert.ToInt32(NulltoZero(outputNegativeValue.Text));
+
+
+            if (component.resistor != 0)
+                Frame.Navigate(typeof(resistor) , component);
+            else if (component.capacitor != 0)
+                Frame.Navigate(typeof(capacitor), component);
+            else if (component.Iductor != 0)
+                Frame.Navigate(typeof(inductor), component);
+            else
+                Frame.Navigate(typeof(result), component);
+
+        }
+        private string NulltoZero(string value)
+        {
+            if (value == "") value = "0";
+            return value;
+        }
+
+        private void ResistorValue_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void InductorValue_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

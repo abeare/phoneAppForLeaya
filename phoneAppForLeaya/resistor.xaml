@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="phoneAppForLeaya.resistor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:phoneAppForLeaya"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer Height="auto">
+
+        <Grid x:Name="mainPlace" Height="auto" Width="400">
+            <TextBlock x:Name="textBlock"
+				TextAlignment="Center"
+				HorizontalAlignment="Left" 
+				Margin="91,28,0,0" 
+				TextWrapping="Wrap"
+				Text="Resistors" 
+				VerticalAlignment="Top" 
+				Height="40"
+				Width="196"
+				FontSize="35"/>
+            <Grid x:Name="firstPlace" Height="auto" Width="auto" Margin="0,73,234,99"/>
+            <Grid x:Name="secoundPlace" Height="auto" Width="auto" Margin="171,73,146,99"/>
+            <Grid x:Name="thirdPlace" Height="auto" Width="auto" Margin="281,73,66,99"/>
+            <Grid x:Name="fourthPlace" Height="auto" Width="auto" Margin="339,73,10,99"/>
+
+
+
+        </Grid>
+
+    </ScrollViewer>
+</Page>
